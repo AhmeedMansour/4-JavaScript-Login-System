@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title and FavIcon -->
+    <title>Smart-Login</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- End of Google Font -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="container">
+            <form id="loginForm">
+                <h1 class="h2">Smart Login System</h1>
+                
+                <div class="input-icons">
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="input-field" type="text" placeholder="Email" id="loginEmail">
+                </div>
+
+                <div class="input-icons">
+                    <i class="fa fa-key icon"></i>
+
+                    <input class="input-field" type="password" placeholder="Password" id="loginPassword">
+                    <i class="fa-solid fa-eye icon" id="eyeIcon"></i>
+                </div>
+                <div class="alert alert-danger d-none" id="loginAlert">Incorrect E-Mail or Password</div>
+                <div class="alert alert-success d-none" id="loginSuccessAlert">Login Success</div>
+                <button type="submit">Login</button>
+                <p class="lead mt-3">Don't have an account? <a href="../Sign Up/index.html" class="text-decoration-none">Sign up</a></p>
+            </form>
+        </div>
+    </main>
+
+
+
+    <!-- JavaScript -->
+    <script src="https://kit.fontawesome.com/ca029ac332.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

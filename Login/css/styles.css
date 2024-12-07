@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    height: 100vh;
+    background-image: url(../images/pexels-felixmittermeier-956999.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "Roboto", serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    max-width: 450px;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px !important;
+    font-family: "Montserrat", serif;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+}
+
+.input-field:focus::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    background-color: #00448d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2970bb;
+}
+
+#eyeIcon{
+    right: 0;
+}
+
+form p {
+    margin-bottom: 10px;
+    font-size: 16px !important; 
+}
