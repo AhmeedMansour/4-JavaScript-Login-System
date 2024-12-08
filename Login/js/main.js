@@ -24,7 +24,7 @@ function login() {
     console.log("Welcome!");
     loginSuccessAlert.classList.replace("d-none", "d-block");
     setTimeout(function () {
-      window.location.href = "../Welcome/index.html";      
+      window.location.href = "./home.html";      
     }, 1500)
   } else {
     loginAlert.classList.replace("d-none", "d-block");
